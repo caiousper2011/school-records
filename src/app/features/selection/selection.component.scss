@@ -1,0 +1,26 @@
+:host .container {
+  padding: var(--spacing-2xl) 0;
+
+  h2 {
+    font-size: var(--text-3xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--stale-900);
+    margin-bottom: var(--spacing-md);
+    max-width: 500px;
+  }
+
+  h3 {
+    color: var(--stale-600);
+  }
+
+  .selection-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-xl);
+
+    & > * {
+      flex: 1;
+    }
+  }
+}

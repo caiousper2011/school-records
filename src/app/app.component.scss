@@ -1,0 +1,24 @@
+:host {
+  header {
+    background-color: var(--stale-500);
+    padding: var(--spacing-md) 0;
+    color: var(--white);
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+
+    h1 {
+      font-size: var(--text-2xl);
+      font-weight: var(--font-weight-light);
+    }
+  }
+
+  main {
+    height: calc(100% - 61px);
+    background-color: var(--stale-50);
+  }
+}

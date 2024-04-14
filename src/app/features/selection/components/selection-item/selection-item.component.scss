@@ -1,0 +1,45 @@
+:host .container {
+  padding: var(--spacing-md);
+  border: solid 1px var(--violet-500);
+  border-radius: var(--shape-xs);
+  background-color: var(--violet-100);
+  flex: 1;
+  width: 100%;
+  min-width: 250px;
+  cursor: pointer;
+  transition: all 0.4s;
+
+  &:hover {
+    filter: brightness(0.95);
+  }
+
+  &:active {
+    filter: brightness(0.85);
+  }
+
+  p {
+    font-size: var(--text-2xl);
+    color: var(--violet-700);
+    font-weight: var(--font-weight-medium);
+  }
+
+  small {
+    font-size: var(--text-sm);
+    font-weight: var(--font-weight-light);
+    color: var(--violet-900);
+  }
+
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing-xl) 0;
+
+    mat-icon {
+      font-size: 5rem;
+      width: 5rem;
+      height: 5rem;
+      color: var(--violet-500);
+    }
+  }
+}
